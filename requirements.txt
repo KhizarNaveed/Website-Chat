@@ -1,0 +1,36 @@
+# ============================================
+# Chat With Any Website - Minimal Requirements
+# ============================================
+
+# --- Web Framework ---
+fastapi
+uvicorn[standard]
+
+# --- Config & Environment ---
+pydantic
+pydantic-settings
+python-dotenv
+
+# --- Web Scraping ---
+httpx
+trafilatura
+beautifulsoup4
+
+# --- LangChain Core ---
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# --- LangChain Integrations ---
+langchain-ollama
+langchain-chroma
+
+# --- Vector Store ---
+chromadb
+
+# --- Embeddings ---
+sentence-transformers
+
+# --- Frontend UI ---
+streamlit

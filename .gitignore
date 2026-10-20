@@ -1,0 +1,33 @@
+# Environment & Secrets
+.env
+.env.local
+api.txt
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Data (ChromedDB is regenerated)
+data/chroma_db/
+data/*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
